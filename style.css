@@ -52,3 +52,21 @@ body {
   width: 70%;
   margin: auto;
 }
+
+.logos {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+.logos ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.logos ul li {
+  display: flex;
+  background-color: #292c34;
+  padding-inline: 16px;
+}
