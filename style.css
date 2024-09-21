@@ -10,6 +10,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #16181d;
+
+  overflow-x: hidden;
 }
 
 html {
