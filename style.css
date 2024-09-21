@@ -5,25 +5,22 @@
   max-width: 100%;
 }
 
+html {
+  font-size: 16px; /* Define a base para rem */
+}
+
 body {
   background-image: url(./assets/Background_Intro.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #16181d;
-
   overflow-x: hidden;
-}
-
-html {
-  overflow-x: hidden;
-
-  scroll-behavior: smooth;
 }
 
 .user {
   display: flex;
   justify-content: center;
-  padding-block: 60px;
+  padding-block: 3.75rem; /* 60px */
 }
 
 .content {
@@ -33,32 +30,31 @@ html {
 .hello {
   font-family: "Inconsolata", monospace;
   color: #c0c4ce;
-  padding-top: 55px;
-  padding-bottom: 12px;
-  font-size: 20px;
-  line-height: 120%;
+  padding-top: 3.4375rem; /* 55px */
+  padding-bottom: 0.75rem; /* 12px */
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.2;
   font-weight: 500;
-
-  span {
-    color: #e3646e;
-  }
 }
 
+.hello span {
+  color: #e3646e;
+}
 
 .user h1 {
   font-family: "Asap", sans-serif;
   color: #e2e4e9;
-  font-size: 56px;
-  line-height: 120%;
+  font-size: 3.5rem; /* 56px */
+  line-height: 1.2;
   font-weight: bold;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem; /* 24px */
 }
 
 .subtitulo {
   font-family: "Maven Pro", sans-serif;
   color: #878ea1;
-  font-size: 18px;
-  line-height: 140%;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.4;
   font-weight: 400;
   width: 70%;
   margin: auto;
@@ -67,32 +63,32 @@ html {
 .logos {
   display: flex;
   justify-content: center;
-  padding: 90px;
+  padding: 5.625rem; /* 90px */
 }
 
 .logos ul {
   display: flex;
   list-style: none;
-  gap: 30px;
+  gap: 1.875rem; /* 30px */
 }
 
 .logos ul li {
   display: flex;
   background-color: #292c34;
-  padding-inline: 16px;
+  padding-inline: 1rem; /* 16px */
   align-items: center;
-  margin-left: 10px;
-  gap: 8px;
+  margin-left: 0.625rem; /* 10px */
+  gap: 0.5rem; /* 8px */
   font-family: "Asap", sans-serif;
   color: #c0c4ce;
-  border-radius: 20px 20px 20px 20px;
-  height: 40px;
+  border-radius: 1.25rem; /* 20px */
+  height: 2.5rem; /* 40px */
 }
 
 .setas {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 1.25rem; /* 20px */
   background-color: #16181d;
 }
 
@@ -100,82 +96,74 @@ html {
   display: flex;
   justify-content: center;
   font-family: "Inconsolata", monospace;
-  font-size: 20px;
-  line-height: 120%;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.2;
   font-weight: 400;
   color: #e3646e;
-  margin-top: 120px;
-  padding: 10px;
+  margin-top: 7.5rem; /* 120px */
+  padding: 0.625rem; /* 10px */
 }
 
 .content-2 h2 {
   font-family: "Asap", sans-serif;
   color: #e2e4e9;
-  font-size: 24px;
-  line-height: 120%;
+  font-size: 1.5rem; /* 24px */
+  line-height: 1.2;
   font-weight: bold;
 }
 
 .destaques-1 {
   display: flex;
-  gap: 30px;
-  padding: 60px;
+  gap: 1.875rem; /* 30px */
+  padding: 3.75rem; /* 60px */
 }
 
 .image-container {
   background-color: #292c34;
-  padding: 10px;
-  border-radius: 12px;
+  padding: 0.625rem; /* 10px */
+  border-radius: 0.75rem; /* 12px */
   height: auto;
 }
 
 .image-container img {
-  border-radius: 12px;
-  width: 400px;
+  border-radius: 0.75rem; /* 12px */
+  width: 100%; /* ajusta a imagem para ser responsiva */
   height: auto;
 }
 
-.image-container:nth-child(2) {
-  & img {
-    height: 180px;
-  }
+.image-container:nth-child(2) img {
+  height: 11.25rem; /* 180px */
 }
 
 .destaques-1 h3 {
   font-family: "Asap", sans-serif;
   color: #e2e4e9;
-  font-size: 16px;
-  line-height: 120%;
+  font-size: 1rem; /* 16px */
+  line-height: 1.2;
   font-weight: bold;
-  margin-top: 10px;
-  padding: 12px;
-  margin-left: 0;
-  padding-left: 0;
+  margin-top: 0.625rem; /* 10px */
+  padding: 0.75rem; /* 12px */
 }
 
 .destaques-1 p {
   font-family: "Maven Pro", sans-serif;
   color: #c0c4ce;
-  font-size: 14px;
-  line-height: 140%;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.4;
   font-weight: 400;
   margin-top: 0;
-  margin-left: 0;
-  padding-left: 0;
-  padding-top: 0;
 }
 
 .background {
-  padding-top: 5px;
+  padding-top: 0.3125rem; /* 5px */
   background-color: #0d0e11;
-  background-size: cover;
-  padding-bottom: 200px;
+  padding-bottom: 12.5rem; /* 200px */
 }
 
 .background p {
   font-family: "Inconsolata", monospace;
-  font-size: 20px;
-  line-height: 120%;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.2;
   font-weight: 400;
   color: #e3646e;
 }
@@ -183,88 +171,85 @@ html {
 .background h2 {
   font-family: "Asap", sans-serif;
   color: #e2e4e9;
-  font-size: 24px;
-  line-height: 120%;
+  font-size: 1.5rem; /* 24px */
+  line-height: 1.2;
   font-weight: bold;
 }
 
 .container-2 {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 1.25rem; /* 20px */
 }
 
 .servico {
-  border: solid #292c34 2px;
-  border-radius: 12px;
-  margin-top: 40px;
-  padding: 10px;
+  border: solid #292c34 0.125rem; /* 2px */
+  border-radius: 0.75rem; /* 12px */
+  margin-top: 2.5rem; /* 40px */
+  padding: 0.625rem; /* 10px */
   height: auto;
-  /* width: 286px; */
 }
 
 .servico img {
   display: flex;
-  padding-left: 8px;
+  padding-left: 0.5rem; /* 8px */
 }
 
 .servico h3 {
   display: flex;
   font-family: "Asap", sans-serif;
   color: #e2e4e9;
-  font-size: 16px;
-  line-height: 120%;
+  font-size: 1rem; /* 16px */
+  line-height: 1.2;
   font-weight: bold;
-  padding-top: 10px;
-  padding-left: 12px;
+  padding-top: 0.625rem; /* 10px */
+  padding-left: 0.75rem; /* 12px */
 }
 
 .servico p {
   font-family: "Maven Pro", sans-serif;
   color: #c0c4ce;
-  font-size: 14px;
-  line-height: 140%;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.4;
   font-weight: 400;
   margin-top: 0;
-  padding-left: 12px;
-  margin-left: 0;
+  padding-left: 0.75rem; /* 12px */
 }
 
 .servico-3 {
-  border: solid #292c34 2px;
-  border-radius: 12px;
-  margin-top: 40px;
-  padding: 10px;
+  border: solid #292c34 0.125rem; /* 2px */
+  border-radius: 0.75rem; /* 12px */
+  margin-top: 2.5rem; /* 40px */
+  padding: 0.625rem; /* 10px */
   height: auto;
-  width: 286px;
+  width: 100%; /* largura responsiva */
+  max-width: 18rem; /* 286px */
 }
 
 .servico-3 img {
   display: flex;
-  padding-left: 6px;
+  padding-left: 0.375rem; /* 6px */
 }
 
 .servico-3 h3 {
   display: flex;
   font-family: "Asap", sans-serif;
   color: #e2e4e9;
-  font-size: 16px;
-  line-height: 120%;
+  font-size: 1rem; /* 16px */
+  line-height: 1.2;
   font-weight: bold;
-  padding-top: 10px;
-  padding-left: 10px;
+  padding-top: 0.625rem; /* 10px */
+  padding-left: 0.625rem; /* 10px */
 }
 
 .servico-3 p {
   display: flex;
   font-family: "Maven Pro", sans-serif;
   color: #c0c4ce;
-  font-size: 14px;
-  line-height: 140%;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.4;
   font-weight: 400;
   margin-top: 0;
-  margin-left: 0;
-  padding-left: 0;
 }
 
 .background-2 {
@@ -275,8 +260,8 @@ html {
 
 .content-3 p {
   font-family: "Inconsolata", monospace;
-  font-size: 20px;
-  line-height: 120%;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.2;
   font-weight: 400;
   color: #bb72e9;
   text-align: center;
@@ -285,39 +270,39 @@ html {
 .content-3 h2 {
   font-family: "Asap", sans-serif;
   color: #e2e4e9;
-  font-size: 24px;
-  line-height: 120%;
+  font-size: 1.5rem; /* 24px */
+  line-height: 1.2;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem; /* 10px */
 }
 
 .content-3 span {
   font-family: "Maven Pro", sans-serif;
   color: #c0c4ce;
-  font-size: 16px;
-  line-height: 140%;
+  font-size: 1rem; /* 16px */
+  line-height: 1.4;
   font-weight: 400;
 }
 
 .contatos {
-  margin-left: 435px;
-  padding-block: 30px;
+  margin-left: 27.1875rem; /* 435px */
+  padding-block: 1.875rem; /* 30px */
 }
 
 .contatos ul li {
   display: flex;
-  padding: 20px;
+  padding: 1.25rem; /* 20px */
   background-color: #292c34;
-  border-radius: 8px;
-  width: 395px;
-  margin-top: 20px;
+  border-radius: 0.5rem; /* 8px */
+  width: 24.6875rem; /* 395px */
+  margin-top: 1.25rem; /* 20px */
   align-items: center;
   font-family: "Maven Pro", sans-serif;
   color: #c0c4ce;
 }
 
 .contatos img {
-  margin-right: 10px;
+  margin-right: 0.625rem; /* 10px */
 }
 
 ul {
@@ -328,11 +313,11 @@ ul {
 
 .list-item {
   background-color: #292c34;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem; /* 10px */
 }
 
 .list-item:hover {
-  border: solid 2px #3996db;
+  border: solid 0.125rem #3996db; /* 2px */
 }
 
 .list-link {
@@ -346,34 +331,33 @@ ul {
 }
 
 .list-link img {
-  margin-left: 10px;
+  margin-left: 0.625rem; /* 10px */
 }
 
 .list-link img:last-child {
   margin-left: auto;
 }
 
-
 @media (max-width: 375px) {
   .user {
-    padding-block: 30px;
+    padding-block: 1.875rem; /* 30px */
   }
 
   .hello {
-    font-size: 18px;
+    font-size: 1.125rem; /* 18px */
   }
 
   .user h1 {
-    font-size: 40px;
+    font-size: 2.5rem; /* 40px */
   }
 
   .subtitulo {
-    font-size: 16px;
+    font-size: 1rem; /* 16px */
     width: 90%;
   }
 
   .logos {
-    padding: 50px 0;
+    padding: 3.125rem 0; /* 50px */
   }
 
   .logos ul {
@@ -382,76 +366,55 @@ ul {
   }
 
   .logos ul li {
-    padding: 10px;
-    font-size: 14px;
+    padding: 0.625rem; /* 10px */
+    font-size: 0.875rem; /* 14px */
   }
 
   .content-2 p {
-    margin-top: 80px;
+    margin-top: 5rem; /* 80px */
   }
 
   .destaques-1 {
     display: block;
     align-items: center;
-    padding: 30px;
-
-    & p {
-      margin: 0;
-      padding: 0;
-      
-    }
+    padding: 1.875rem; /* 30px */
   }
 
   .image-container {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem; /* 20px */
     width: 100%;
-    max-width: 300px;
   }
 
-   .image-container {
-    height: 270px;
+  .image-container {
+    height: 16.875rem; /* 270px */
   }
 
-  .image-container:nth-child(2) {
-   & p {
-    margin: 0;
-    padding: 0;
+  .image-container:nth-child(2) img {
+    height: 9.375rem; /* 150px */
   }
-
-  & img {
-    height: 150px;
-  }
-}
 
   .background {
-    padding-bottom: 100px;
+    padding-bottom: 6.25rem; /* 100px */
   }
 
   .servico {
     width: 100%;
-    max-width: 300px;
-    margin: 20px auto;
-  }
-
-  .servico-3 {
-    width: 100%;
-    max-width: 300px;
-    margin: 20px auto;
+    max-width: 18.75rem; /* 300px */
+    margin: 1.25rem auto; /* 20px */
   }
 
   .contatos {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-block: 15px;
+    margin-left: 0.625rem; /* 10px */
+    margin-right: 0.625rem; /* 10px */
+    padding-block: 0.9375rem; /* 15px */
   }
 
   .contatos ul li {
     width: 100%;
-    padding: 15px;
+    padding: 0.9375rem; /* 15px */
   }
 
   .content-3 span {
-    font-size: 14px;
+    font-size: 0.875rem; /* 14px */
   }
 }
-
