@@ -391,7 +391,7 @@ ul {
   }
 
   .destaques-1 {
-    flex-direction: column;
+    display: block;
     align-items: center;
     padding: 30px;
 
