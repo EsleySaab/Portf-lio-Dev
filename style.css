@@ -12,6 +12,12 @@ body {
   background-color: #16181d;
 }
 
+html {
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
+}
+
 .user {
   display: flex;
   justify-content: center;
@@ -35,6 +41,7 @@ body {
     color: #e3646e;
   }
 }
+
 
 .user h1 {
   font-family: "Asap", sans-serif;
@@ -122,15 +129,23 @@ body {
 
 .image-container img {
   border-radius: 12px;
+  width: 400px;
+  height: auto;
+}
+
+.image-container:nth-child(2) {
+  & img {
+    height: 180px;
+  }
 }
 
 .destaques-1 h3 {
-  display: flex;
   font-family: "Asap", sans-serif;
   color: #e2e4e9;
   font-size: 16px;
   line-height: 120%;
   font-weight: bold;
+  margin-top: 10px;
   padding: 12px;
   margin-left: 0;
   padding-left: 0;
@@ -335,3 +350,106 @@ ul {
 .list-link img:last-child {
   margin-left: auto;
 }
+
+
+@media (max-width: 375px) {
+  .user {
+    padding-block: 30px;
+  }
+
+  .hello {
+    font-size: 18px;
+  }
+
+  .user h1 {
+    font-size: 40px;
+  }
+
+  .subtitulo {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .logos {
+    padding: 50px 0;
+  }
+
+  .logos ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .logos ul li {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .content-2 p {
+    margin-top: 80px;
+  }
+
+  .destaques-1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+    & p {
+      margin: 0;
+      padding: 0;
+      
+    }
+  }
+
+  .image-container {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+  }
+
+   .image-container {
+    height: 270px;
+  }
+
+  .image-container:nth-child(2) {
+   & p {
+    margin: 0;
+    padding: 0;
+  }
+
+  & img {
+    height: 150px;
+  }
+}
+
+  .background {
+    padding-bottom: 100px;
+  }
+
+  .servico {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+
+  .servico-3 {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+
+  .contatos {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-block: 15px;
+  }
+
+  .contatos ul li {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .content-3 span {
+    font-size: 14px;
+  }
+}
+
