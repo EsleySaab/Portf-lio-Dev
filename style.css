@@ -131,8 +131,6 @@ body {
   height: auto;
 }
 
-
-
 .destaques-1 h3 {
   font-family: "Asap", sans-serif;
   color: #e2e4e9;
@@ -248,6 +246,8 @@ body {
   line-height: 1.4;
   font-weight: 400;
   margin-top: 0;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .background-2 {
@@ -258,8 +258,8 @@ body {
 
 .content-3 p {
   font-family: "Inconsolata", monospace;
-  font-size: 1.25rem; /* 20px */
-  line-height: 1.2;
+  font-size: 20px;
+  line-height: 120%;
   font-weight: 400;
   color: #bb72e9;
   text-align: center;
@@ -268,39 +268,39 @@ body {
 .content-3 h2 {
   font-family: "Asap", sans-serif;
   color: #e2e4e9;
-  font-size: 1.5rem; /* 24px */
-  line-height: 1.2;
+  font-size: 24px;
+  line-height: 120%;
   font-weight: bold;
-  margin-bottom: 0.625rem; /* 10px */
+  margin-bottom: 10px;
 }
 
 .content-3 span {
   font-family: "Maven Pro", sans-serif;
   color: #c0c4ce;
-  font-size: 1rem; /* 16px */
-  line-height: 1.4;
+  font-size: 16px;
+  line-height: 140%;
   font-weight: 400;
 }
 
 .contatos {
-  margin-left: 27.1875rem; /* 435px */
-  padding-block: 1.875rem; /* 30px */
+  margin-left: 435px;
+  padding-block: 30px;
 }
 
 .contatos ul li {
   display: flex;
-  padding: 1.25rem; /* 20px */
+  padding: 20px;
   background-color: #292c34;
-  border-radius: 0.5rem; /* 8px */
-  width: 24.6875rem; /* 395px */
-  margin-top: 1.25rem; /* 20px */
+  border-radius: 8px;
+  width: 395px;
+  margin-top: 20px;
   align-items: center;
   font-family: "Maven Pro", sans-serif;
   color: #c0c4ce;
 }
 
 .contatos img {
-  margin-right: 0.625rem; /* 10px */
+  margin-right: 10px;
 }
 
 ul {
@@ -311,11 +311,11 @@ ul {
 
 .list-item {
   background-color: #292c34;
-  margin-bottom: 0.625rem; /* 10px */
+  margin-bottom: 10px;
 }
 
 .list-item:hover {
-  border: solid 0.125rem #3996db; /* 2px */
+  border: solid 2px #3996db;
 }
 
 .list-link {
@@ -329,90 +329,9 @@ ul {
 }
 
 .list-link img {
-  margin-left: 0.625rem; /* 10px */
+  margin-left: 10px;
 }
 
 .list-link img:last-child {
   margin-left: auto;
-}
-
-@media (max-width: 375px) {
-  .user {
-    padding-block: 1.875rem; /* 30px */
-  }
-
-  .hello {
-    font-size: 1.125rem; /* 18px */
-  }
-
-  .user h1 {
-    font-size: 2.5rem; /* 40px */
-  }
-
-  .subtitulo {
-    font-size: 1rem; /* 16px */
-    width: 90%;
-  }
-
-  .logos {
-    padding: 3.125rem 0; /* 50px */
-  }
-
-  .logos ul {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .logos ul li {
-    padding: 0.625rem; /* 10px */
-    font-size: 0.875rem; /* 14px */
-  }
-
-  .content-2 p {
-    margin-top: 5rem; /* 80px */
-  }
-
-  .destaques-1 {
-    display: block;
-    align-items: center;
-    padding: 1.875rem; /* 30px */
-  }
-
-  .image-container {
-    margin-bottom: 1.25rem; /* 20px */
-    width: 100%;
-  }
-
-  .image-container {
-    height: 16.875rem; /* 270px */
-  }
-
-  .image-container:nth-child(2) img {
-    height: 9.375rem; /* 150px */
-  }
-
-  .background {
-    padding-bottom: 6.25rem; /* 100px */
-  }
-
-  .servico {
-    width: 100%;
-    max-width: 18.75rem; /* 300px */
-    margin: 1.25rem auto; /* 20px */
-  }
-
-  .contatos {
-    margin-left: 0.625rem; /* 10px */
-    margin-right: 0.625rem; /* 10px */
-    padding-block: 0.9375rem; /* 15px */
-  }
-
-  .contatos ul li {
-    width: 100%;
-    padding: 0.9375rem; /* 15px */
-  }
-
-  .content-3 span {
-    font-size: 0.875rem; /* 14px */
-  }
 }
