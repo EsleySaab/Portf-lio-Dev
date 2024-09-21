@@ -131,9 +131,7 @@ body {
   height: auto;
 }
 
-.image-container:nth-child(2) img {
-  height: 11.25rem; /* 180px */
-}
+
 
 .destaques-1 h3 {
   font-family: "Asap", sans-serif;
